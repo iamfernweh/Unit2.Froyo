@@ -22,7 +22,10 @@ function countFlavors(userInputString) {
     );
 //display as a table
     console.table(flavorCount);
+//return the flavor count object
+    return flavorCount;
 
 }
 
-countFlavors(userInputString);
+//call function and store the returned object
+const countedFlavors = countFlavors(userInputString);
